@@ -1,10 +1,10 @@
 import React from "react";
-import { Form } from "react-bootstrap";
+import { Form, FormCheck } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import GoogleIcon from "@mui/icons-material/Google";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Link } from "react-router-dom";
 export default function Signup() {
   return (
     <div>
@@ -30,6 +30,11 @@ export default function Signup() {
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control type="password" placeholder="Confirm password" />
         </Form.Group>
+        <Form.Check 
+            type={FormCheck}
+            label={'I agree to terms and conditions'}
+            style={{fontSize:"15px"}}
+          />
         <Button variant="primary" type="submit">
           Submit
         </Button>
@@ -39,9 +44,7 @@ export default function Signup() {
         <LinkedInIcon style={{margin: "8px"}}/>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Text className="text-muted">Existing user?</Form.Text>
-          <a href="login.js" style={{ color: "red", fontSize: "15px", margin:"5px" }}>
-            Login here !
-          </a>
+          <Link to='/login' style={{ color: "red", fontSize: "15px", margin:"5px" }}>Login here!</Link>
         </Form.Group>
       </Form>
     </div>
