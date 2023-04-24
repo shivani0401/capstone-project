@@ -1,5 +1,3 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
@@ -21,6 +19,7 @@ function App() {
       </BrowserRouter>
       </header>
     </div>
+  
   );
 }
 
