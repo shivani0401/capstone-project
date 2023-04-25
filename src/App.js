@@ -3,7 +3,7 @@ import Signup from './components/Signup/Signup';
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Meditation from './components/Meditation/Meditation';
-import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
       </Routes>
       </BrowserRouter>
       </header>
-      <Footer />
     </div>
   
   );

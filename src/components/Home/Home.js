@@ -3,7 +3,6 @@ import Navigator from '../Navigator/Navigator'
 import WorkoutCard from '../WorkoutCard/WorkoutCard'
 
 
-
 export default function Home() {
   return (
     <div>
