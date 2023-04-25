@@ -4,6 +4,7 @@ import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Meditation from './components/Meditation/Meditation';
 
+
 function App() {
   return (
     <div className="App">
