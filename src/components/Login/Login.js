@@ -5,6 +5,7 @@ import { Button } from "react-bootstrap";
 import GoogleIcon from "@mui/icons-material/Google";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Link } from "react-router-dom";
 export default function Login() {
   return (
     <div>
@@ -28,9 +29,7 @@ export default function Login() {
         <LinkedInIcon style={{margin: "8px"}}/>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Text className="text-muted">Not an existing user?</Form.Text>
-          <a href="signup.js" style={{ color: "red", fontSize: "15px", margin:"5px" }}>
-            Sign-up here!
-          </a>
+          <Link to='/signup' style={{ color: "red", fontSize: "15px", margin:"5px" }}>Signup here!</Link>
         </Form.Group>
       </Form>
     </div>
