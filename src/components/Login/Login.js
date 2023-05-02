@@ -8,7 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "react-router-dom";
 export default function Login() {
   return (
-    <div>
+    <div className="App-header">
       <h4>Login here!</h4>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
