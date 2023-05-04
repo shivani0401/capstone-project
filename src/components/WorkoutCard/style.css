@@ -2,9 +2,9 @@ div.gallery {
   border: 1px solid #927a7a;
 }
 
-/* div.gallery:hover {
-  border: 2px solid #bd6363;
-} */
+div.gallery:hover {
+  border: 1px solid #bd6363;
+}
 
 div.gallery img {
   width: 100%;
