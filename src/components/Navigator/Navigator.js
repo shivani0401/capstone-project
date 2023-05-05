@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 export default function Navigator() {
   return (
  <div>
-         <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Link className='navbar-brand' to="/">BetterMent</Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

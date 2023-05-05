@@ -12,7 +12,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function App() {
   return (
-    <MDBFooter className='bg-light text-center text-white'>
+<div style={{margintop:"50px"}}>
+<MDBFooter className='bg-dark text-center text-white'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <MDBBtn
@@ -77,9 +78,9 @@ export default function App() {
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2023 Copyright:
-        BetterMent
+        © 2023 Copyright: BetterMent
       </div>
     </MDBFooter>
+</div>    
   );
 }
