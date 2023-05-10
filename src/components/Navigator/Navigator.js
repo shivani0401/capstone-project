@@ -15,12 +15,12 @@ export default function Navigator() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Link to="/meditation" style={{fontSize:"18px",textDecoration:"none", color:"grey", margin:"10px", padding:"10px"}}>Meditation</Link>
-            <NavDropdown style={{fontSize:"18px",textDecoration:"none", color:"grey", padding:"10px"}} title="Workout Programs" bg="dark" id="collasible-nav-dropdown">
-              <Link to="" style={{fontSize:"18px",textDecoration:"none", color:"black", margin:"10px", padding:"10px"}}>Yoga</Link>
+            <NavDropdown style={{ alignContent:'center', fontSize:"18px",textDecoration:"none", color:"grey", padding:"10px", display:'table-column-group'}} title="Workout Programs" bg="dark" id="collasible-nav-dropdown">
+              <Link to="/yoga" style={{ fontSize:"18px",textDecoration:"none", color:"black", margin:"10px", padding:"10px"}}>Yoga</Link>
               <hr/>
-              <Link to="" style={{fontSize:"18px",textDecoration:"none", color:"black", margin:"10px", padding:"10px"}}>HIIT</Link>
+              <Link to="/hiit" style={{fontSize:"18px",textDecoration:"none", color:"black", margin:"10px", padding:"10px"}}>HIIT</Link>
               <hr/>
-              <Link to="" style={{fontSize:"18px",textDecoration:"none", color:"black", margin:"10px", padding:"10px"}}>Pilates</Link>
+              <Link to="/pilates" style={{fontSize:"18px",textDecoration:"none", color:"black", margin:"10px", padding:"10px"}}>Pilates</Link>
               <hr/>
               <Link to="" style={{fontSize:"18px",textDecoration:"none", color:"black", margin:"10px", padding:"10px"}}>Abs Workout</Link>
             </NavDropdown>
