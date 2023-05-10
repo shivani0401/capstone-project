@@ -16,6 +16,7 @@ export default function App() {
 <MDBFooter className='bg-dark text-center text-white'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
+          <p style={{fontSize:"14px"}}>BetterMent is a tool designed for workouts, meditation and healthy reciepes. which will help user follow <b style={{color:'#9c4479'}}>better</b> lifestyle </p>
           <MDBBtn
             floating
             className='m-1'

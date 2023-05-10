@@ -8,12 +8,14 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 90px;
 }
 
 div.desc {
-  padding: 15px;
+  padding: 10px;
+  font-size: small;
   text-align: center;
+  color:#9c4479;
 }
 
 * {
@@ -21,7 +23,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 0 15px 20px;
   float: left;
   width: 24.99999%;
 }
