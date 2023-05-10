@@ -1,4 +1,5 @@
 import React from 'react'
+import 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel';
 import Navigator from '../Navigator/Navigator'
 import WorkoutCard from '../WorkoutCard/WorkoutCard'
@@ -6,6 +7,7 @@ import Footer from '../Footer/Footer'
 import img1 from './1.svg'
 import img2 from './2.svg'
 import img3 from './3.svg'
+import Featured from '../Featured/Featured';
 export default function Home() {
   return (
     <div>
@@ -54,7 +56,7 @@ export default function Home() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-      <WorkoutCard/>
+      <Featured/>
       <Footer/>
     </div>
   )

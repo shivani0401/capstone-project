@@ -1,7 +1,6 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import GoogleIcon from "@mui/icons-material/Google";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
