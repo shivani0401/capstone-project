@@ -25,7 +25,7 @@ export default function Navigator() {
               <Link to="" style={{fontSize:"18px",textDecoration:"none", color:"black", margin:"10px", padding:"10px"}}>Abs Workout</Link>
             </NavDropdown>
             <Link to="" style={{fontSize:"18px",textDecoration:"none", color:"grey", margin:"10px", padding:"10px"}}>Recipes</Link>
-            <Link to="" style={{fontSize:"18px",textDecoration:"none", color:"grey", margin:"10px", padding:"10px"}}>About</Link>
+            <Link to="/aboutus" style={{fontSize:"18px",textDecoration:"none", color:"grey", margin:"10px", padding:"10px"}}>About</Link>
           </Nav>
           <Nav>
             <Button variant="dark">Logout</Button>

@@ -7,6 +7,7 @@ import Meditation from './components/Meditation/Meditation';
 import HIIT from './components/HIIT/HIIT';
 import Yoga from './components/Yoga/Yoga';
 import Pilates from './components/Pilates/Pilates';
+import AboutUs from './components/AboutUs/AboutUs';
 // import Footer from './components/Footer/Footer';
 // import Navigator from './components/Navigator/Navigator';
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/hiit' element={<HIIT/>}/>
         <Route path='/yoga' element={<Yoga/>}/>
         <Route path='/pilates' element={<Pilates/>}/>
+        <Route path='/aboutus' element={<AboutUs/>}/>
       </Routes>
       </BrowserRouter>
     </div>
