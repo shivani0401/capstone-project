@@ -9,7 +9,7 @@ function AboutUs() {
     <div>
       <div style={{ backgroundColor: "#282c34" }}>
         <Navigator />
-        <h5 style={{color:"white", paddingTop:"20px"}}>'Excersices,recipes and mindfulness practices that will help you on your road to healthy living,weight loss and stress relief.'</h5>
+        <h5 style={{color:"white", paddingTop:"40px", fontSize:'15px'}}>'Excersices, recipes and mindfulness practices that will help you on your road to healthy living, weight loss and stress relief.'</h5>
         <div
           style={{
             display: "grid",
@@ -49,15 +49,12 @@ function AboutUs() {
                 v-model="email"
                 wrapperClass="mb-4"
               />
-
-              <MDBInput label="Subject" v-model="subject" wrapperClass="mb-4" />
-
+              <MDBInput label="Subject" type="" v-model="subject" wrapperClass="mb-4" />
               <MDBCheckbox
                 wrapperClass="d-flex justify-content-center"
                 label="Send me copy"
               />
-
-              <MDBBtn color="primary" block className="my-4">
+              <MDBBtn style={{backgroundColor:"#9c4479"}} block className="my-4">
                 Send
               </MDBBtn>
             </form>

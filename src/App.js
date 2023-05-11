@@ -8,6 +8,8 @@ import HIIT from './components/HIIT/HIIT';
 import Yoga from './components/Yoga/Yoga';
 import Pilates from './components/Pilates/Pilates';
 import AboutUs from './components/AboutUs/AboutUs';
+import Recipes from './components/Recipes/Recipes';
+import Abs from './components/Abs/Abs';
 // import Footer from './components/Footer/Footer';
 // import Navigator from './components/Navigator/Navigator';
 function App() {
@@ -22,7 +24,9 @@ function App() {
         <Route path='/hiit' element={<HIIT/>}/>
         <Route path='/yoga' element={<Yoga/>}/>
         <Route path='/pilates' element={<Pilates/>}/>
+        <Route path='/abs' element={<Abs/>}/>
         <Route path='/aboutus' element={<AboutUs/>}/>
+        <Route path='/recipes' element={<Recipes/>}/>
       </Routes>
       </BrowserRouter>
     </div>
