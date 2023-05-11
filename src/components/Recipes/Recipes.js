@@ -100,7 +100,7 @@ export default function Recipes() {
                     fontWeight: "bold",
                   }}
                 >
-                  High Protine
+                  High Protein
                 </Link>
                 <div class="desc"></div>
                 {/* <Button
