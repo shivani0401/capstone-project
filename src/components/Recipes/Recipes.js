@@ -1,6 +1,6 @@
 import React from "react";
 import Navigator from "../Navigator/Navigator";
-import Footer from '../Footer/Footer';
+import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 import "./style.css";
 import { Button } from "react-bootstrap";
@@ -53,9 +53,7 @@ export default function Recipes() {
                 Banana Oatmeal pancake
               </Link>
               <div class="desc">Best For: Begginers</div>
-              <Button variant="primary">
-                View
-              </Button>
+              <Button variant="primary">View</Button>
             </div>
           </div>
         </div>
@@ -66,7 +64,7 @@ export default function Recipes() {
                 fontSize: "24px",
                 color: "white",
                 justifyContent: "end",
-                marginTop:'20px'
+                marginTop: "20px",
               }}
             >
               Popular Searches
@@ -118,7 +116,8 @@ export default function Recipes() {
                   marginTop: "10px",
                   marginLeft: "200px",
                   height: "80px",
-                  width: "200px",                }}
+                  width: "200px",
+                }}
               >
                 <Link
                   className=""
@@ -147,7 +146,8 @@ export default function Recipes() {
                   marginTop: "10px",
                   marginLeft: "200px",
                   height: "80px",
-                  width: "200px",                }}
+                  width: "200px",
+                }}
               >
                 <Link
                   className=""
@@ -173,110 +173,106 @@ export default function Recipes() {
         </div>
       </div>
       <div>
-        <h5 style={{color:'white'}}>Easy Breakfafst ideas</h5>
-        <div style={{
-          display: "grid",
-          alignItems: "center",
-          gridTemplateColumns: "1fr 1fr 1fr",
-          columnGap: "5px",
-          backgroundColor: " #282c34",
-        }}>
-            <div>
+        <h5 style={{ color: "white" }}>Easy Breakfafst ideas</h5>
+        <div
+          style={{
+            display: "grid",
+            alignItems: "center",
+            gridTemplateColumns: "1fr 1fr 1fr",
+            columnGap: "5px",
+            backgroundColor: " #282c34",
+          }}
+        >
+          <div>
             <div className="responsive">
-            <div
-              class="gallery"
-              style={{
-                marginTop: "10px",
-                marginLeft: "150px",
-                height: "130px",
-                width: "300px",
-              }}
-            >
-         <Link
-                className=""
-                to="#"
+              <div
+                class="gallery"
                 style={{
-                  fontSize: "20px",
-                  textDecoration: "none",
-                  fontWeight: "bold",
+                  marginTop: "10px",
+                  marginLeft: "150px",
+                  height: "130px",
+                  width: "300px",
                 }}
               >
-                Recipe 1
-              </Link>
-              <div class="desc"></div>
-              {/* <Button variant="primary" style={{ backgroundColor: "#9c4479" }}>
+                <Link
+                  className=""
+                  to="#"
+                  style={{
+                    fontSize: "20px",
+                    textDecoration: "none",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Recipe 1
+                </Link>
+                <div class="desc"></div>
+                {/* <Button variant="primary" style={{ backgroundColor: "#9c4479" }}>
                 View
               </Button> */}
+              </div>
             </div>
           </div>
-
-            </div>
-            <div>
+          <div>
             <div className="responsive">
-            <div
-              class="gallery"
-              style={{
-                marginTop: "10px",
-                marginLeft: "0px",
-                height: "130px",
-                width: "300px",
-              }}
-            >
-         <Link
-                className=""
-                to="#"
+              <div
+                class="gallery"
                 style={{
-                  fontSize: "20px",
-                  textDecoration: "none",
-                  fontWeight: "bold",
+                  marginTop: "10px",
+                  marginLeft: "0px",
+                  height: "130px",
+                  width: "300px",
                 }}
               >
-                Recipe 2
-              </Link>
-              <div class="desc"></div>
-              {/* <Button variant="primary" style={{ backgroundColor: "#9c4479" }}>
+                <Link
+                  className=""
+                  to="#"
+                  style={{
+                    fontSize: "20px",
+                    textDecoration: "none",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Recipe 2
+                </Link>
+                <div class="desc"></div>
+                {/* <Button variant="primary" style={{ backgroundColor: "#9c4479" }}>
                 View
               </Button> */}
+              </div>
             </div>
           </div>
-
-      
-            </div>
-            <div>
+          <div>
             <div className="responsive">
-            <div
-              class="gallery"
-              style={{
-                marginTop: "10px",
-                marginRight: "150px",
-                height: "130px",
-                width: "300px",
-              }}
-            >
-         <Link
-                className=""
-                to="#"
+              <div
+                class="gallery"
                 style={{
-                  fontSize: "20px",
-                  textDecoration: "none",
-                  fontWeight: "bold",
+                  marginTop: "10px",
+                  marginRight: "150px",
+                  height: "130px",
+                  width: "300px",
                 }}
               >
-                Recipe 3
-              </Link>
-              <div class="desc"></div>
-              {/* <Button variant="primary" style={{ backgroundColor: "#9c4479" }}>
+                <Link
+                  className=""
+                  to="#"
+                  style={{
+                    fontSize: "20px",
+                    textDecoration: "none",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Recipe 3
+                </Link>
+                <div class="desc"></div>
+                {/* <Button variant="primary" style={{ backgroundColor: "#9c4479" }}>
                 View
               </Button> */}
+              </div>
             </div>
           </div>
-
-      
-            </div>
-
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
