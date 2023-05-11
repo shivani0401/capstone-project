@@ -11,7 +11,7 @@ export default function Meditation() {
       <Navigator />
       <div style={{display:'grid', alignItems:'center', gridTemplateColumns:'0.2fr 1fr', columnGap:'5px', backgroundColor:" #282c34"}}>
       <img
-        style={{ display: "block", marginTop: "100px", justifyContent:'left'}}
+        style={{ display: "block", marginTop: "180px", justifyContent:'left'}}
         width="100%"
         height="100%"
         src={mindfulness}

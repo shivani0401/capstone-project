@@ -20,11 +20,11 @@ export default function Yoga() {
           <img
             style={{
               display: "block",
-              marginTop: "10px",
+              marginTop: "240px",
               justifyContent: "left",
             }}
             width="150%"
-            height="100%"
+            height="200%"
             src={workout}
             alt="meditation img"
           ></img>

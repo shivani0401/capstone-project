@@ -7,7 +7,7 @@ export default function Featured() {
   return (
     <div>
             <div>
-           
+           <h5 style={{backgroundColor:'#282c34', marginBottom:'0px', color:'white', fontSize:'14px'}}>Featured</h5>
        <div className="responsive">
 
          <div class="gallery">

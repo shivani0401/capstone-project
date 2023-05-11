@@ -21,7 +21,7 @@ export default function Pilates() {
           <img
             style={{
               display: "block",
-              marginTop: "10px",
+              marginTop: "160px",
               justifyContent: "left",
             }}
             width="120%"
