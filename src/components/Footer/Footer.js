@@ -24,12 +24,16 @@ export default function App() {
           <br/>
           <CallOutlinedIcon/> <b>12345 12345</b>
           <br/>
-          <LocationOnOutlinedIcon/> <b>356, abc sector, xyz.</b>
+          <LocationOnOutlinedIcon/> <b>356, abc, xyz.</b>
 
         </div>
           
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
+          <p style={{fontSize:"14px"}}>BetterMent is a tool designed for workouts, meditation and healthy reciepes. which will help user follow <b style={{color:'#9c4479'}}>better</b> lifestyle </p>
+          <div className=''>
+
+          </div>
           <MDBBtn
             floating
             className='m-1'
