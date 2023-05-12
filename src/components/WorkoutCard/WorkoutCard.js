@@ -133,7 +133,7 @@ Best For: Stress management and fighting overwhelm</div>
               Transcendental Meditation
 </Link>
             <div class="desc">
-Best For: Improved awareness, stress relief</div>
+Best For: Improved awareness, stress relief and better sleep</div>
           </div>
         </div>
       </div>

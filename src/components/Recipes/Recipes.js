@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import { Button } from "react-bootstrap";
 import img from "./banana-oatmeal-pancake.jpeg";
+import dietimg from "./7732680_5307.jpg";
 export default function Recipes() {
   return (
     <div style={{ backgroundColor: " #282c34" }}>
@@ -13,11 +14,14 @@ export default function Recipes() {
         style={{
           display: "grid",
           alignItems: "center",
-          gridTemplateColumns: "1fr 1fr",
+          gridTemplateColumns: "1fr 1fr 1fr",
           columnGap: "0px",
           backgroundColor: " #282c34",
         }}
       >
+        <div>
+            <img src={dietimg} alt="diet img" height="200px" width="300px" style={{backgroundColor:'#282c34', marginLeft:"100px"}}/>
+        </div>
         <div>
           <div>
             <h4
@@ -35,7 +39,7 @@ export default function Recipes() {
               class="gallery"
               style={{
                 marginTop: "10px",
-                marginLeft: "150px",
+                marginLeft: "70px",
                 height: "230px",
                 width: "300px",
               }}
@@ -84,7 +88,7 @@ export default function Recipes() {
                 class="gallery"
                 style={{
                   marginTop: "10px",
-                  marginLeft: "200px",
+                  marginLeft: "70px",
                   height: "80px",
                   width: "200px",
                 }}
@@ -114,7 +118,7 @@ export default function Recipes() {
                 class="gallery"
                 style={{
                   marginTop: "10px",
-                  marginLeft: "200px",
+                  marginLeft: "70px",
                   height: "80px",
                   width: "200px",
                 }}
@@ -144,7 +148,7 @@ export default function Recipes() {
                 class="gallery"
                 style={{
                   marginTop: "10px",
-                  marginLeft: "200px",
+                  marginLeft: "70px",
                   height: "80px",
                   width: "200px",
                 }}

@@ -24,7 +24,7 @@ export default function App() {
           <br/>
           <CallOutlinedIcon/> <b>12345 12345</b>
           <br/>
-          <LocationOnOutlinedIcon/> <b>356, abc sector, xyz.</b>
+          <LocationOnOutlinedIcon/> <b>356, abc, xyz.</b>
 
         </div>
           
