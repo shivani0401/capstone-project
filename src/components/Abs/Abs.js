@@ -4,43 +4,47 @@ import Footer from "../Footer/Footer";
 import workout from "./undraw_working_out_re_nhkg.svg";
 import "./style.css";
 import { Link } from "react-router-dom";
-export default function Pilates() {
+export default function Abs() {
   const imgData = [
     {
       id: 1,
-      title: "dog",
+      title: "Plank",
+      des: "The plank is an isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
     },
     {
       id: 2,
-      title: "coding..coding...",
+      title: "Russian Twist",
+      des: "The Russian twist is a simple abdominal exercise for working the core, shoulders, and hips.",
     },
     {
       id: 3,
-      title: "ginni pig",
+      title: "Reverse Crunch",
+      des: "The reverse crunch is even better than the standard crunch for strengthening your abs. The move keeps your muscles under tension for a longer period",
     },
     {
       id: 4,
-      title: "flower",
+      title: "Bicycle Crunch",
+      des: "A study commissioned by the American Council on Exercise named this the best abs exercise because it provides the greatest stimulus to both abs and obliques.",
     },
     {
       id: 5,
-      title: "sun set",
-    },
-    {
-      id: 6,
-      title: "yeee...clap clap",
+      title: "Leg Raise",
+      des: "Lie down flat on your back on the ground. Keeping your legs as straight as possible, raise them until they’re vertical or as close as you can get. Lower them and repeat.",
     },
     {
       id: 7,
-      title: "mountain",
+      title: "Mountain Climbers",
+      des: '“Start in a straight arm press-up position with one knee up between your elbows and only the back foot on the floor, Jump the back foot off the floor and swap it with the front foot."',
     },
     {
       id: 8,
-      title: "Wind farm",
+      title: "Crunches",
+      des: "Crunches are critical ab exercises since anyone can do it. Crunches are amazing for your trunk. While the main function of your core is to prevent movement.",
     },
     {
       id: 10,
-      title: "magic.",
+      title: "Sit-up",
+      des: "The sit-up is an abdominal endurance training exercise to strengthen, tighten and tone the abdominal muscles. It is similar to a crunch, but sit-ups have a fuller range of motion and condition additional muscles.",
     },
   ];
 
@@ -92,40 +96,30 @@ export default function Pilates() {
 
         <h5 style={{ color: "wheat" }}>List of Popular Abdominal Exercises</h5>
         <div className="img-gallery-container">
-          <div
-            style={{
-              webkitColumnCount: "3",
-              mozColumnCount: "3",
-              columnCount: "3",
-              webkitColumnWidth: "100%",
-              mozColumnWidth: "100%",
-              columnWidth: "100%",
-              marginLeft: "8rem",
-              marginRight: "8rem",
-              textAlign: "center",
-            }}
-          >
+          <div>
             {imgData.map((item, index) => {
               return (
                 <div className="responsive">
                   <div class="gallery">
-                    <Link
-                      className=""
-                      to="#"
-                      style={{
-                        fontSize: "20px",
-                        textDecoration: "none",
-                        fontWeight: "bold",
-                      }}
-                    >
-                      <div className="img-card" key={index}>
-                        <img />
-                        <div>
-                          <h6>{item.title}</h6>
-                        </div>
+                    <div className="img-card" key={index}>
+                      {/* <img src={workout} /> */}
+                      <div>
+                        <Link
+                          className=""
+                          to="#"
+                          style={{
+                            fontSize: "30px",
+                            textDecoration: "none",
+                            fontWeight: "bold",
+                            paddingBottom: "0px",
+                          }}
+                        >
+                          {item.title}
+                        </Link>
                       </div>
-                    </Link>
-                    <div class="desc">Best For: Begginers</div>
+                    </div>
+
+                    <div class="desc">{item.des}</div>
                   </div>
                 </div>
               );
