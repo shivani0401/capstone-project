@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Form, FormCheck } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import GoogleIcon from "@mui/icons-material/Google";
@@ -6,17 +6,17 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "react-router-dom";
 export default function Signup() {
+  const [values, setValues] = useState({
+    name: "",
+    email: "",
+    pass: "",
+  })
   return (
     <div className="App-header">
       <h4>Signup</h4>
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Control type="text" placeholder="First Name" />
-          
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Control type="text" placeholder="Last Name" />
-          
+          <Form.Control type="text" placeholder="Name" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control type="email" placeholder="Enter email" />
